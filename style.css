@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Original Surfer', cursive;
+    margin: 0px;
+    padding: 0px;
+    
+  }
+  .title{
+    padding: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    background-color: #6daffe;
+    color:  white;
+
+  }
+
+  .openBtn {
+    margin-top: 40px;
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 100px;
+  }
+  .openButton {
+    border: none;
+    border-radius: 5px;
+    background-color: #6daffe;
+    color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+    
+  }
+  .loginPopup {
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  .formPopup {
+    display: none;
+    position: fixed;
+    left: 45%;
+    top: 5%;
+    transform: translate(-50%, 5%);
+    border: 3px solid #ffffff00;;
+    z-index: 9;
+  }
+  .formContainer {
+      margin-left: 180px;
+      margin-top: 130px;
+    
+    max-width: 300px;
+    padding: 20px;
+    background-color: #6daffe;
+    box-shadow: 0 0 10px 4px rgba(0, 26, 110, 0.418);
+  }
+  .formContainer input[type=text],
+  .formContainer input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    border: none;
+    background: #eee;
+  }
+  .formContainer input[type=text]:focus,
+  .formContainer input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  .formContainer #btnadd {
+    padding: 12px 20px;
+    border: none;
+    background-color: #8ebf42;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 15px;
+    opacity: 0.8;
+  }
+  .formContainer #btncancel {
+    padding: 12px 20px;
+    border: none;
+    background-color: #cc0000;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 15px;
+    opacity: 0.8;;
+  }
+  .formContainer .btn:hover,
+  .openButton:hover {
+    opacity: 1;
+  }
+  .formheader{
+    color: white;
+     
+  }
+  .radio{
+    color: white;
+    margin-right: 200px ;
+    
+
+  }
+  .middle{
+    color: blue;
+  }
+
+.notebody{
+  display: flex;;
+  flex-wrap: wrap;
+  margin : 0;
+  padding-top: 3rem;
+
+}
+.notebody .note{
+  background-color: white;
+  box-shadow: 0 0 10px 4px rgba(0, 26, 110, 0.418);
+  margin: 30px 20px;
+  height: 400px;
+  width: 400px;
+  
+
+}
+.note .tools{
+
+  background-color:#6daffe;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem;
+
+}
+.note .tools button{
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 1rem;
+
+
+}
+.note .tools button:hover{
+color: rgba(255, 255, 255, 0.349);
+
+}
+
+.hidden{
+  display: none;
+}
+.note textarea{
+  outline: none;
+  font-size: 1.2rem;
+  border: none;
+  height: 100%;
+  width: 100%;
+  padding:20px;
+
+}
