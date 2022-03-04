@@ -44,29 +44,29 @@
     border: 3px solid #ffffff00;;
     z-index: 9;
   }
-  .formContainer {
+  #formContainer {
       margin-left: 180px;
       margin-top: 130px;
     
     max-width: 300px;
     padding: 20px;
     background-color: #6daffe;
-    box-shadow: 0 0 10px 4px rgba(0, 26, 110, 0.418);
+    box-shadow: black;
   }
-  .formContainer input[type=text],
-  .formContainer input[type=password] {
+  #formContainer input[type=text],
+  #formContainer input[type=password] {
     width: 100%;
     padding: 15px;
     margin: 5px 0 20px 0;
     border: none;
     background: #eee;
   }
-  .formContainer input[type=text]:focus,
-  .formContainer input[type=password]:focus {
+  #formContainer input[type=text]:focus,
+  #formContainer input[type=password]:focus {
     background-color: #ddd;
     outline: none;
   }
-  .formContainer #btnadd {
+  #formContainer #btnadd {
     padding: 12px 20px;
     border: none;
     background-color: #8ebf42;
@@ -76,7 +76,7 @@
     margin-bottom: 15px;
     opacity: 0.8;
   }
-  .formContainer #btncancel {
+  #formContainer #btncancel {
     padding: 12px 20px;
     border: none;
     background-color: #cc0000;
@@ -86,7 +86,7 @@
     margin-bottom: 15px;
     opacity: 0.8;;
   }
-  .formContainer .btn:hover,
+  #formContainer .btn:hover,
   .openButton:hover {
     opacity: 1;
   }
@@ -154,4 +154,20 @@ color: rgba(255, 255, 255, 0.349);
   width: 100%;
   padding:20px;
 
+}
+
+.main{
+  margin-left: 10px;
+  padding: 1rem;
+
+}
+
+ul{
+
+  list-style-type: none;
+
+}
+li{
+font-size: 1.5 rem;
+  padding: 1rem;
 }
