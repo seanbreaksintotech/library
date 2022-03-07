@@ -71,7 +71,7 @@ function addNewNote(text =''){
 
   <div class = "note">
     <div class = "tools">
-      <button class = "edit"><i class = "fas fa-edit" ></i></button>
+      
       <button class = "delete"><i class = "fas fa-trash-alt" ></i></button>
       
     </div>
