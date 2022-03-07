@@ -102,7 +102,12 @@ deleteBtn.addEventListener('click', () => {
 })
 
 
-  document.body.appendChild(note)
+
+     
+    document.body.appendChild(note)
+  
+
+  
 }
 
 
